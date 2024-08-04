@@ -1,17 +1,19 @@
-My ERC20 Token
+# My ERC20 Token
 
 This Solidity contract represents a basic implementation of an ERC20 token named "DOB-DOB" (symbol: "DD"). It demonstrates essential ERC20 token functionalities such as minting, transferring, and burning tokens. This contract can be a useful reference for understanding the foundational elements of ERC20 tokens and Solidity programming.
 
-Description
+## Description
 The MyERC20Token contract provides a simplified ERC20 token implementation. It includes functions for minting new tokens, transferring tokens between addresses, and burning tokens to reduce the total supply. The contract is designed to help developers grasp the core concepts of ERC20 tokens and can be extended or customized for more advanced use cases.
 
-Key Features
+## Key Features
 Minting: Allows the contract owner to create new tokens and assign them to a specific address.
 Transferring: Enables the transfer of tokens from one address to another.
 Burning: Permits the reduction of the total token supply by destroying tokens from a specified address.
 Balance Checking: Provides a method to check the token balance of a specific address.
-Getting Started
-Executing the Contract
+
+## Getting Started
+
+### Executing the Contract
 To deploy and interact with the MyERC20Token contract, you can use Remix, an online Solidity IDE. Follow these steps to get started:
 
 Open Remix: Visit Remix IDE.
@@ -73,19 +75,19 @@ contract MyERC20Token {
         return balances[_owner];
     }
 }
-Compile the Code: Click on the "Solidity Compiler" tab in the left sidebar. Ensure the compiler version is set to 0.8.26 or another compatible version, and then click on "Compile MyERC20Token.sol".
+### Compile the Code: Click on the "Solidity Compiler" tab in the left sidebar. Ensure the compiler version is set to 0.8.26 or another compatible version, and then click on "Compile MyERC20Token.sol".
 
-Deploy the Contract: Navigate to the "Deploy & Run Transactions" tab. Select the MyERC20Token contract from the dropdown menu and click "Deploy".
+### Deploy the Contract: Navigate to the "Deploy & Run Transactions" tab. Select the MyERC20Token contract from the dropdown menu and click "Deploy".
 
-Interact with the Contract: Once deployed, you can interact with the contract through the Remix interface:
+### Interact with the Contract: Once deployed, you can interact with the contract through the Remix interface:
 
 Use the mint function to create new tokens.
 Use the transfer function to move tokens between addresses.
 Use the burn function to destroy tokens.
 Check balances with the balanceOf function.
-Author
+## Author
 Udit Kumar
 
-License
+## License
 This project is licensed under the MIT License.
 

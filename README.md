@@ -1,3 +1,5 @@
+My ERC20 Token
+
 This Solidity contract represents a basic implementation of an ERC20 token named "DOB-DOB" (symbol: "DD"). It demonstrates essential ERC20 token functionalities such as minting, transferring, and burning tokens. This contract can be a useful reference for understanding the foundational elements of ERC20 tokens and Solidity programming.
 
 Description
